@@ -1,0 +1,6 @@
+node_name                'hareesh'
+client_key               '/root/chef-repo/.chef/hareesh.pem'
+validation_client_name   'chef-validator'
+validation_key           '/etc/chef-server/chef-validator.pem'
+chef_server_url          'https://workstation/organizations/myorg'
+syntax_check_cache_path  '/root/chef-repo/.chef/syntax_check_cache'
